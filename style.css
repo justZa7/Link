@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background: url(Kota\ Hujan.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(3px);
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: auto;
+    width: 100%;
+    align-items: center;
+}
+
+.pict {
+    height: 30vh;
+    width: 30vh;
+    background: url(mylovee.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    cursor: none;
+}
+
+/* Container Style */
+
+.box-instagram {
+    width: 60vw;
+    height: 7vh;
+    display: flex;
+    border-radius: 16px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000;
+    cursor: pointer;
+    transition: 0.3s ease;
+    color: #fff;
+}
+
+.box-facebook {
+    width: 60vw;
+    height: 7vh;
+    display: flex;
+    border-radius: 16px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000;
+    cursor: pointer;
+    transition: 0.3s ease;
+    color: #fff;
+}
+
+.box-twitter {
+    width: 60vw;
+    height: 7vh;
+    display: flex;
+    border-radius: 16px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000;
+    cursor: pointer;
+    transition: 0.3s ease;
+    color: #fff;
+}
+
+.box-tiktok {
+    width: 60vw;
+    height: 7vh;
+    display: flex;
+    border-radius: 16px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000;
+    cursor: pointer;
+    transition: 0.3s ease;
+    color: #fff;
+}
+
+.box-github {
+    width: 60vw;
+    height: 7vh;
+    display: flex;
+    border-radius: 16px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000;
+    cursor: pointer;
+    transition: 0.3s ease;
+    color: #fff;
+}
+
+/* Style Inside */
+
+.box-instagram a{
+    color: #fff;
+    font-size: 1.8em;
+    margin-left: 30px;
+}
+
+.box-instagram span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-right: 65px;
+}
+
+.box-twitter a{
+    color: #fff;
+    font-size: 1.8em;
+    margin-left: 30px;
+}
+
+.box-twitter span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-right: 65px;
+}
+
+.box-facebook a{
+    color: #fff;
+    font-size: 1.8em;
+    margin-left: 30px;
+}
+
+.box-facebook span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-right: 65px;
+}
+
+.box-tiktok a{
+    color: #fff;
+    font-size: 1.8em;
+    margin-left: 30px;
+}
+
+.box-tiktok span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-right: 85px;
+}
+
+.box-github a{
+    color: #fff;
+    font-size: 1.8em;
+    margin-left: 30px;
+}
+
+.box-github span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-right: 80px;
+}
+
+/* Hover */
+
+.box-instagram:hover {
+    padding-right: 9vw;
+    padding-left: 9vw;
+    scale: 1.1;
+}
+
+.box-twitter:hover {
+    padding-right: 9vw;
+    padding-left: 9vw;
+    scale: 1.1;
+}
+
+.box-facebook:hover {
+    padding-right: 9vw;
+    padding-left: 9vw;
+    scale: 1.1;
+}
+
+.box-tiktok:hover {
+    padding-right: 9vw;
+    padding-left: 9vw;
+    scale: 1.1;
+}
+
+.box-github:hover {
+    padding-right: 9vw;
+    padding-left: 9vw;
+    scale: 1.1;
+}
